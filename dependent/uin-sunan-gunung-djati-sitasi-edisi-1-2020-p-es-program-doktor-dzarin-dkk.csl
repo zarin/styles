@@ -1305,6 +1305,7 @@
         <if position="ibid ibid-with-locator" match="any">
           <group delimiter=", ">
             <text macro="contributors-short"/>
+            <text macro="title-short"/>
             <group delimiter=" ">
               <group delimiter=", ">
                 <choose>
